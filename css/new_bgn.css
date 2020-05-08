@@ -1,0 +1,137 @@
+
+    .fst{
+    background-color: black;
+/* FONT */
+    font-size: 0.9rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: green;
+    text-decoration: underline;  
+    }
+
+    .fstp{
+        padding: 5rem 0rem 0rem 7em;
+    }
+
+    div.fst{
+        padding: 3rem 5rem 0rem 22.5em;
+    }
+/* END FONT */
+
+
+/* NAVBAR */
+    .fstbar{
+        font-size: 1.2rem;
+    }
+
+    .links li{
+        float: left;
+        display:inline ;
+        padding: 2rem 0rem 1rem 4em;
+        border-bottom: 1rem white;
+    }
+
+    .links li a{
+        text-decoration: none;
+        color: green;
+        margin-left: 8.5rem;
+    }
+
+    .links li a.active{
+        text-decoration: line-through;
+        color: rgb(174, 248, 174);
+    }
+/*END NAVBAR  */
+
+    
+/* BODY */
+    section{
+        padding: 0rem 0rem 0rem 2.5rem;
+    }
+
+    .card{
+        background-color: black;
+    }
+
+    div.card a{
+        /* color: white; */
+        text-decoration: line-through;
+        color: rgb(174, 248, 174);
+        
+    }
+/* END BODY */
+
+
+/* FOOTER */
+    .foot{
+        margin-top: 5rem;
+    }
+/* END FOOTER */
+
+
+/* RESPONSIVENESS */
+@media only screen and (min-width: 480px){
+    .fstbar{
+        float: left;
+    }
+
+    .fstgif{
+        float: left;
+        padding-left: 1rem;
+    }
+
+    .fstp{
+        padding: 5rem 0rem 0rem 5.2em;
+    }
+
+    .links li a{
+        margin-left: -2rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .fstgif{
+        float:left;
+        padding-left: 9.5rem;
+    }
+
+    .fstp{
+        padding: 5rem 0rem 0rem 10em;
+    }
+
+    .links li a{
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .fstgif{
+        float:left;
+        padding-left: 22.5rem;
+    }
+
+    .fstp{
+        padding: 5rem 0rem 0rem 15.5em;
+    }
+
+    .links li a{
+        margin-left: 7rem;
+    }
+}
+
+@media only screen and (min-width: 1240px){
+    .fstp{
+        padding: 5rem 0rem 0rem 18em;
+    }
+
+    .fstgif{
+        float:left;
+        padding-left: 26.5rem;
+    }
+
+    .links li a{
+        margin-left: 8rem;
+    }
+}
+
+
+/* END RESPONSIVENESS */
